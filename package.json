@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto en Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Alfredo Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "morgan": "^1.9.1",
+    "pg": "^7.17.1",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "postgrator-cli": "^3.2.0"
+  }
+}
